@@ -242,18 +242,7 @@ This project is based on deepfake detection research. See `research paper.pdf` f
 - [ ] Create Docker container for easy deployment
 
 ## 📄 License
-
 This project is available for educational and research purposes.
-
-## 👤 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/deepfake-detector-Model/issues).
 
 ## 🙏 Acknowledgments
 
