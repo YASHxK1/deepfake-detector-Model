@@ -6,6 +6,14 @@ A deep learning-powered application that detects deepfake images using Convoluti
 
 This project implements a binary image classifier to distinguish between real and AI-generated (deepfake) images. Using a custom CNN architecture, the model analyzes facial images and provides real-time predictions with confidence scores.
 
+## 📦 Dataset
+
+This project uses a labeled dataset of real and deepfake images for training and evaluation. The dataset is available to download from Kaggle:
+
+https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images
+
+Please download and place the dataset in the expected directory structure before running training scripts.
+
 ## ✨ Features
 
 - **CNN-Based Detection**: Custom 3-layer convolutional neural network architecture
@@ -109,9 +117,9 @@ python deepfake_detector_create_model_file.py
 1. **Launch the app** using the Streamlit command
 2. **Upload an image** (JPG, JPEG, or PNG format)
 3. **View results** including:
-   - Prediction: Real or Fake
-   - Confidence probability
-   - Processing time
+    - Prediction: Real or Fake
+    - Confidence probability
+    - Processing time
 
 ### Prediction Process
 
@@ -256,4 +264,4 @@ Give a ⭐️ if this project helped you!
 
 ---
 
-**Disclaimer**: This tool is for educational and research purposes. Always verify critical information through multiple sources. Deepfake detection is an evolving field, and no detector is 100% accurate.
+**Disclaimer**: This tool is for educational and research purposes. Always verify critical information through multiple sources. Deepfake detection is an evolving field, and no detector is 100% accurate for all scenarios.
